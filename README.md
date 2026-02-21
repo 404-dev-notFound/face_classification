@@ -33,7 +33,7 @@ python classify_faces.py --known-dir path/to/known_people --unknown-dir path/to/
 *   `--unknown-dir`: (Required) Path to images to be classified.
 *   `--output-dir`: (Default: `output`) Where sorted folders will be created.
 *   `--use-cnn`: (Flag) Use the CNN model for face detection. This is more accurate but slower on CPU. If you have a GPU with CUDA support, this is much faster.
-*   `--tolerance`: (Default: `0.6`) How strict the matching should be. Lower is stricter.
+*   `--tolerance`: (Default: `0.45`) How strict the matching should be. Lower is stricter.
 
 ## Example
 
